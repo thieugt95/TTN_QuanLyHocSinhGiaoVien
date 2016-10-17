@@ -36,6 +36,7 @@ D:\GitHub\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_
 D:\GitHub\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.exe
 D:\GitHub\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT.exe.config
 F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT.exe
@@ -56,3 +57,5 @@ F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_
 >>>>>>> refs/remotes/origin/KCS
 =======
 >>>>>>> refs/remotes/origin/ThanhTung
+=======
+>>>>>>> refs/remotes/origin/PhanDuy
