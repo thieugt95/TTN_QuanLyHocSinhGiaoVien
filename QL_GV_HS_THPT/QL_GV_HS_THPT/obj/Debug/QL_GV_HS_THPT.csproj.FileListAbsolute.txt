@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 c:\users\cong\documents\visual studio 2013\Projects\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT.exe.config
 E:\GitHub\TTN_QL_GV_HS_THPT\Soucre\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT.exe.config
 E:\GitHub\TTN_QL_GV_HS_THPT\Soucre\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT.exe
@@ -34,3 +35,21 @@ C:\Users\Administrator\Desktop\TTN_QL_GV_HS_THPT\Soucre\QL_GV_HS_THPT\QL_GV_HS_T
 D:\GitHub\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT.exe.config
 D:\GitHub\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.exe
 D:\GitHub\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.pdb
+=======
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT.exe.config
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT.exe
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT.pdb
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT_BUS.dll
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT_DAL.dll
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT_FORM.dll
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_QV_HS_THPT_Entity.dll
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT_BUS.pdb
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT_DAL.pdb
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT_FORM.pdb
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_QV_HS_THPT_Entity.pdb
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.csprojResolveAssemblyReference.cache
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.Properties.Resources.resources
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.csproj.GenerateResource.Cache
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.exe
+F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.pdb
+>>>>>>> refs/remotes/origin/KCS
