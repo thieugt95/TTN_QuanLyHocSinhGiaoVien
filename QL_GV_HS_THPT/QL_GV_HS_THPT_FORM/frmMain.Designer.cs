@@ -31,10 +31,17 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblHi = new System.Windows.Forms.Label();
+            this.btnHuongdan = new System.Windows.Forms.Button();
+            this.btnTkb = new System.Windows.Forms.Button();
+            this.btnGiaovien = new System.Windows.Forms.Button();
+            this.btnHocsinh = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.quảnLýHọcSinhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xemDanhSáchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnSearchstudent = new System.Windows.Forms.ToolStripMenuItem();
+            this.thêmHọcSinhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýGiáoViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnListteacher = new System.Windows.Forms.ToolStripMenuItem();
             this.btnSearchtecher = new System.Windows.Forms.ToolStripMenuItem();
             this.btnAddteacher = new System.Windows.Forms.ToolStripMenuItem();
             this.btnRegisterteach = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,13 +52,6 @@
             this.tạoTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.phânQuyềnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hướngDẫnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnHuongdan = new System.Windows.Forms.Button();
-            this.btnTkb = new System.Windows.Forms.Button();
-            this.btnGiaovien = new System.Windows.Forms.Button();
-            this.btnHocsinh = new System.Windows.Forms.Button();
-            this.xemDanhSáchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thêmHọcSinhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnListteacher = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -83,6 +83,60 @@
             this.lblHi.TabIndex = 5;
             this.lblHi.Text = "Xin chào :";
             // 
+            // btnHuongdan
+            // 
+            this.btnHuongdan.Image = ((System.Drawing.Image)(resources.GetObject("btnHuongdan.Image")));
+            this.btnHuongdan.Location = new System.Drawing.Point(365, 185);
+            this.btnHuongdan.Name = "btnHuongdan";
+            this.btnHuongdan.Size = new System.Drawing.Size(109, 90);
+            this.btnHuongdan.TabIndex = 4;
+            this.btnHuongdan.Text = "Hướng dẫn";
+            this.btnHuongdan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnHuongdan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnHuongdan.UseVisualStyleBackColor = true;
+            this.btnHuongdan.Click += new System.EventHandler(this.btnHuongdan_Click);
+            // 
+            // btnTkb
+            // 
+            this.btnTkb.Image = ((System.Drawing.Image)(resources.GetObject("btnTkb.Image")));
+            this.btnTkb.Location = new System.Drawing.Point(365, 79);
+            this.btnTkb.Name = "btnTkb";
+            this.btnTkb.Size = new System.Drawing.Size(109, 87);
+            this.btnTkb.TabIndex = 3;
+            this.btnTkb.Text = "Quản lý giảng dạy";
+            this.btnTkb.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnTkb.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnTkb.UseVisualStyleBackColor = true;
+            this.btnTkb.Click += new System.EventHandler(this.btnTkb_Click);
+            // 
+            // btnGiaovien
+            // 
+            this.btnGiaovien.Image = global::QL_GV_HS_THPT_FORM.Properties.Resources.Teachers_icon__1_;
+            this.btnGiaovien.Location = new System.Drawing.Point(121, 185);
+            this.btnGiaovien.Name = "btnGiaovien";
+            this.btnGiaovien.Size = new System.Drawing.Size(109, 90);
+            this.btnGiaovien.TabIndex = 2;
+            this.btnGiaovien.Text = "Quản lý giáo viên";
+            this.btnGiaovien.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnGiaovien.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnGiaovien.UseVisualStyleBackColor = true;
+            this.btnGiaovien.Click += new System.EventHandler(this.btnGiaovien_Click);
+            // 
+            // btnHocsinh
+            // 
+            this.btnHocsinh.BackColor = System.Drawing.SystemColors.Control;
+            this.btnHocsinh.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnHocsinh.Image = global::QL_GV_HS_THPT_FORM.Properties.Resources.Student_3_icon1;
+            this.btnHocsinh.Location = new System.Drawing.Point(121, 79);
+            this.btnHocsinh.Name = "btnHocsinh";
+            this.btnHocsinh.Size = new System.Drawing.Size(109, 87);
+            this.btnHocsinh.TabIndex = 1;
+            this.btnHocsinh.Text = "Quản lý học sinh";
+            this.btnHocsinh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnHocsinh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnHocsinh.UseVisualStyleBackColor = true;
+            this.btnHocsinh.Click += new System.EventHandler(this.btnHocsinh_Click);
+            // 
             // menuStrip1
             // 
             this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -108,12 +162,26 @@
             this.quảnLýHọcSinhToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.quảnLýHọcSinhToolStripMenuItem.Text = "Học sinh";
             // 
+            // xemDanhSáchToolStripMenuItem
+            // 
+            this.xemDanhSáchToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("xemDanhSáchToolStripMenuItem.Image")));
+            this.xemDanhSáchToolStripMenuItem.Name = "xemDanhSáchToolStripMenuItem";
+            this.xemDanhSáchToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.xemDanhSáchToolStripMenuItem.Text = "Xem danh sách";
+            // 
             // btnSearchstudent
             // 
             this.btnSearchstudent.Name = "btnSearchstudent";
             this.btnSearchstudent.Size = new System.Drawing.Size(172, 22);
             this.btnSearchstudent.Text = "Tìm kiếm học sinh";
             this.btnSearchstudent.Click += new System.EventHandler(this.btnSearchstudent_Click);
+            // 
+            // thêmHọcSinhToolStripMenuItem
+            // 
+            this.thêmHọcSinhToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("thêmHọcSinhToolStripMenuItem.Image")));
+            this.thêmHọcSinhToolStripMenuItem.Name = "thêmHọcSinhToolStripMenuItem";
+            this.thêmHọcSinhToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.thêmHọcSinhToolStripMenuItem.Text = "Thêm học sinh";
             // 
             // quảnLýGiáoViênToolStripMenuItem
             // 
@@ -124,6 +192,14 @@
             this.quảnLýGiáoViênToolStripMenuItem.Name = "quảnLýGiáoViênToolStripMenuItem";
             this.quảnLýGiáoViênToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.quảnLýGiáoViênToolStripMenuItem.Text = "Giáo viên";
+            // 
+            // btnListteacher
+            // 
+            this.btnListteacher.Image = ((System.Drawing.Image)(resources.GetObject("btnListteacher.Image")));
+            this.btnListteacher.Name = "btnListteacher";
+            this.btnListteacher.Size = new System.Drawing.Size(180, 22);
+            this.btnListteacher.Text = "Danh sách giáo viên";
+            this.btnListteacher.Click += new System.EventHandler(this.btnListteacher_Click);
             // 
             // btnSearchtecher
             // 
@@ -183,6 +259,7 @@
             this.tạoTàiKhoảnToolStripMenuItem.Name = "tạoTàiKhoảnToolStripMenuItem";
             this.tạoTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.tạoTàiKhoảnToolStripMenuItem.Text = "Tạo tài khoản";
+            this.tạoTàiKhoảnToolStripMenuItem.Click += new System.EventHandler(this.tạoTàiKhoảnToolStripMenuItem_Click);
             // 
             // phânQuyềnToolStripMenuItem
             // 
@@ -195,81 +272,6 @@
             this.hướngDẫnToolStripMenuItem.Name = "hướngDẫnToolStripMenuItem";
             this.hướngDẫnToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
             this.hướngDẫnToolStripMenuItem.Text = "Hướng dẫn";
-            // 
-            // btnHuongdan
-            // 
-            this.btnHuongdan.Image = ((System.Drawing.Image)(resources.GetObject("btnHuongdan.Image")));
-            this.btnHuongdan.Location = new System.Drawing.Point(365, 185);
-            this.btnHuongdan.Name = "btnHuongdan";
-            this.btnHuongdan.Size = new System.Drawing.Size(109, 90);
-            this.btnHuongdan.TabIndex = 4;
-            this.btnHuongdan.Text = "Hướng dẫn";
-            this.btnHuongdan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnHuongdan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnHuongdan.UseVisualStyleBackColor = true;
-            // 
-            // btnTkb
-            // 
-            this.btnTkb.Image = ((System.Drawing.Image)(resources.GetObject("btnTkb.Image")));
-            this.btnTkb.Location = new System.Drawing.Point(365, 79);
-            this.btnTkb.Name = "btnTkb";
-            this.btnTkb.Size = new System.Drawing.Size(109, 87);
-            this.btnTkb.TabIndex = 3;
-            this.btnTkb.Text = "Quản lý giảng dạy";
-            this.btnTkb.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnTkb.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnTkb.UseVisualStyleBackColor = true;
-            this.btnTkb.Click += new System.EventHandler(this.btnTkb_Click);
-            // 
-            // btnGiaovien
-            // 
-            this.btnGiaovien.Image = global::QL_GV_HS_THPT_FORM.Properties.Resources.Teachers_icon__1_;
-            this.btnGiaovien.Location = new System.Drawing.Point(121, 185);
-            this.btnGiaovien.Name = "btnGiaovien";
-            this.btnGiaovien.Size = new System.Drawing.Size(109, 90);
-            this.btnGiaovien.TabIndex = 2;
-            this.btnGiaovien.Text = "Quản lý giáo viên";
-            this.btnGiaovien.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnGiaovien.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnGiaovien.UseVisualStyleBackColor = true;
-            this.btnGiaovien.Click += new System.EventHandler(this.btnGiaovien_Click);
-            // 
-            // btnHocsinh
-            // 
-            this.btnHocsinh.BackColor = System.Drawing.SystemColors.Control;
-            this.btnHocsinh.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnHocsinh.Image = global::QL_GV_HS_THPT_FORM.Properties.Resources.Student_3_icon1;
-            this.btnHocsinh.Location = new System.Drawing.Point(121, 79);
-            this.btnHocsinh.Name = "btnHocsinh";
-            this.btnHocsinh.Size = new System.Drawing.Size(109, 87);
-            this.btnHocsinh.TabIndex = 1;
-            this.btnHocsinh.Text = "Quản lý học sinh";
-            this.btnHocsinh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnHocsinh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnHocsinh.UseVisualStyleBackColor = true;
-            this.btnHocsinh.Click += new System.EventHandler(this.btnHocsinh_Click);
-            // 
-            // xemDanhSáchToolStripMenuItem
-            // 
-            this.xemDanhSáchToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("xemDanhSáchToolStripMenuItem.Image")));
-            this.xemDanhSáchToolStripMenuItem.Name = "xemDanhSáchToolStripMenuItem";
-            this.xemDanhSáchToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
-            this.xemDanhSáchToolStripMenuItem.Text = "Xem danh sách";
-            // 
-            // thêmHọcSinhToolStripMenuItem
-            // 
-            this.thêmHọcSinhToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("thêmHọcSinhToolStripMenuItem.Image")));
-            this.thêmHọcSinhToolStripMenuItem.Name = "thêmHọcSinhToolStripMenuItem";
-            this.thêmHọcSinhToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
-            this.thêmHọcSinhToolStripMenuItem.Text = "Thêm học sinh";
-            // 
-            // btnListteacher
-            // 
-            this.btnListteacher.Image = ((System.Drawing.Image)(resources.GetObject("btnListteacher.Image")));
-            this.btnListteacher.Name = "btnListteacher";
-            this.btnListteacher.Size = new System.Drawing.Size(180, 22);
-            this.btnListteacher.Text = "Danh sách giáo viên";
-            this.btnListteacher.Click += new System.EventHandler(this.btnListteacher_Click);
             // 
             // frmMain
             // 

@@ -111,5 +111,16 @@ namespace QL_GV_HS_THPT_FORM
             frmHS.Show();
             this.Dispose();
         }
+
+        private void btnHuongdan_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "helpqlhs.chm");
+        }
+
+        private void tạoTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmThemtaikhoan them = new frmThemtaikhoan();
+            them.Show();
+        }
     }
 }

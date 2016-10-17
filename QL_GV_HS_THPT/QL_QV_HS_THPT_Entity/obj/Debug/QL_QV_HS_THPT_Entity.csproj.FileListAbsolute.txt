@@ -12,8 +12,4 @@ C:\Users\Administrator\Desktop\Quanlihocsinhgiaovien\QL_GV_HS_THPT\QL_QV_HS_THPT
 C:\Users\Administrator\Desktop\Quanlihocsinhgiaovien\QL_GV_HS_THPT\QL_QV_HS_THPT_Entity\bin\Debug\QL_QV_HS_THPT_Entity.pdb
 C:\Users\Administrator\Desktop\Quanlihocsinhgiaovien\QL_GV_HS_THPT\QL_QV_HS_THPT_Entity\obj\Debug\QL_QV_HS_THPT_Entity.dll
 C:\Users\Administrator\Desktop\Quanlihocsinhgiaovien\QL_GV_HS_THPT\QL_QV_HS_THPT_Entity\obj\Debug\QL_QV_HS_THPT_Entity.pdb
-D:\github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_QV_HS_THPT_Entity\bin\Debug\QL_QV_HS_THPT_Entity.dll
-D:\github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_QV_HS_THPT_Entity\bin\Debug\QL_QV_HS_THPT_Entity.pdb
-D:\github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_QV_HS_THPT_Entity\obj\Debug\QL_QV_HS_THPT_Entity.csprojResolveAssemblyReference.cache
-D:\github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_QV_HS_THPT_Entity\obj\Debug\QL_QV_HS_THPT_Entity.dll
-D:\github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_QV_HS_THPT_Entity\obj\Debug\QL_QV_HS_THPT_Entity.pdb
+C:\Users\Administrator\Desktop\Quanlihocsinhgiaovien\QL_GV_HS_THPT\QL_QV_HS_THPT_Entity\obj\Debug\QL_QV_HS_THPT_Entity.csprojResolveAssemblyReference.cache

@@ -145,11 +145,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(77, 44);
+            this.label3.Location = new System.Drawing.Point(227, 44);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(515, 39);
+            this.label3.Size = new System.Drawing.Size(229, 39);
             this.label3.TabIndex = 11;
-            this.label3.Text = "QUẢN LÍ GIÁO VIÊN HỌC SINH";
+            this.label3.Text = "USER LOGIN";
             // 
             // frmDangnhap
             // 
