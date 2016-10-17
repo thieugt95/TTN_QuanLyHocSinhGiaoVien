@@ -35,6 +35,7 @@ C:\Users\Administrator\Desktop\TTN_QL_GV_HS_THPT\Soucre\QL_GV_HS_THPT\QL_GV_HS_T
 D:\GitHub\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT.exe.config
 D:\GitHub\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.exe
 D:\GitHub\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.pdb
+<<<<<<< HEAD
 =======
 F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT.exe.config
 F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\bin\Debug\QL_GV_HS_THPT.exe
@@ -53,3 +54,5 @@ F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_
 F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.exe
 F:\Github\TTN_QuanLyHocSinhGiaoVien\QL_GV_HS_THPT\QL_GV_HS_THPT\obj\Debug\QL_GV_HS_THPT.pdb
 >>>>>>> refs/remotes/origin/KCS
+=======
+>>>>>>> refs/remotes/origin/ThanhTung
